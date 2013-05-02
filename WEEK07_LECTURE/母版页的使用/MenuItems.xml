@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<MenuItems>
+  <MenuItem Text="首页" Url="Default.aspx"></MenuItem>
+  <MenuItem Text="学院概况" Url="">
+    <MenuItem Text="学院简介" Url="xyjj.aspx"></MenuItem>
+    <MenuItem Text="现任领导" Url=""></MenuItem>
+    <MenuItem Text="学院特色" Url="xyts.aspx"></MenuItem>
+  </MenuItem>
+  <MenuItem Text="学院机构" Url="">
+    <MenuItem Text="院系设置" Url=""></MenuItem>
+    <MenuItem Text="党政机关" Url=""></MenuItem>
+    <MenuItem Text="直属机构" Url=""></MenuItem>
+  </MenuItem>
+  <MenuItem Text="院系导航" Url="">
+    <MenuItem Text="人文学院" Url=""></MenuItem>
+    <MenuItem Text="理工学院" Url=""></MenuItem>
+    <MenuItem Text="法商学院" Url=""></MenuItem>
+  </MenuItem>
+  <MenuItem Text="师资队伍" Url="">
+    <MenuItem Text="招聘信息" Url=""></MenuItem>
+    <MenuItem Text="师资简介" Url=""></MenuItem>
+    <MenuItem Text="人事政策" Url=""></MenuItem>
+  </MenuItem>
+  <MenuItem Text="信息服务" Url="">
+    <MenuItem Text="通讯地址" Url=""></MenuItem>
+    <MenuItem Text="办事指南" Url=""></MenuItem>
+    <MenuItem Text="教师短号" Url=""></MenuItem>
+  </MenuItem>
+</MenuItems>

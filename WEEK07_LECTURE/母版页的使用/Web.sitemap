@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="Default.aspx" title="首页" description="">
+    <siteMapNode title="学院概况" description="">
+      <siteMapNode url="xyjj.aspx" title="学院简介" description="" />
+      <siteMapNode url="xyts.aspx" title="学院特色" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Course_ASPNET", ".", "{FC60BDE6-2448-4391-AE8A-00C29D08692B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Course_ASPNET"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\GitHub\Course_ASPNET\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Course_ASPNET\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Course_ASPNET"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\GitHub\Course_ASPNET\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Course_ASPNET\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58224"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC60BDE6-2448-4391-AE8A-00C29D08692B}.Debug|.NET.ActiveCfg = Debug|.NET
+		{FC60BDE6-2448-4391-AE8A-00C29D08692B}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

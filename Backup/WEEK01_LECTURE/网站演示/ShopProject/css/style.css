@@ -1,0 +1,92 @@
+*{margin:0 auto;padding:0}
+img{border:0;}
+body {
+	margin: 0 auto;
+	 
+}
+#contan {
+	width: 1024px;
+	height: 768px;
+}
+#top {
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+#top h1{padding:22px 0 0 73px;}
+#main {
+	width: 1024px;
+	height: 500px;
+	
+	
+}
+#main1 {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background: url("/images/box/login_bg.jpg") no-repeat;
+}
+#login_me {
+	width: 445px;
+	height: 300px;
+	float: right;
+	margin: 100px 0 0 0;
+	display: block;
+	background: #F4F4F4;
+	border-top: 1px solid #D1D1CF;
+    border-left: 1px solid #D1D1CF;
+    border-right: 1px solid #D1D1CF;
+    border-bottom:1px solid #D1D1CF; 
+    padding: 0px 2px;
+  
+}
+#login_top {
+	color: #9C9C9C;
+	height: 46px;
+	padding: 27px 41px 0px 20px;
+	text-align: right;
+	width: 384px;
+}
+#username
+{
+	height: 56px;
+}
+#username label {
+	float: left;
+	padding: 7px 18px 0px 0px;
+	text-align: right;
+	width: 92px;
+}
+.login_input {
+	background: white;
+	border: 1px solid #D9D9D9;
+	float: left;
+	height: 24px;
+	overflow: hidden;
+	width: 235px;
+}
+#password {
+	height: 56px;
+}
+#password label {
+	float: left;
+	padding: 7px 18px 0px 0px;
+	text-align: right;
+	width: 92px;
+}
+#check {
+	width: 445px;
+	height: 30px;
+}
+#denglu {
+	width: 445px;
+	height: 63px;
+}
+#bottom {
+	width: 1024;
+	height: 68px;
+}
+.checkbox {
+	padding-left: 120px;
+}

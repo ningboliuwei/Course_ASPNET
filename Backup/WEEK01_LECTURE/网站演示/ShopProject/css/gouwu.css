@@ -1,0 +1,150 @@
+﻿body{margin:0;padding:0;color:#666;background:url('/images/top/bg.gif') repeat;text-align:left;font:12px Tahoma}
+
+ul,li,dl,dt,dd,form,p{margin:0;padding:0;list-style:none}
+
+table input,select,textarea,option{font:100% Verdana;BORDER:1px solid #ccc;COLOR:#333;background:#fff;height:20px;line-height:20px;}
+
+.clear{clear:both;font-size:0;line-height:0;height:0}
+
+img{border:none}
+
+a{color:#666;text-decoration:none;}
+
+a:active,a:focus{outline:none;}
+
+a:hover{color:#f70;text-decoration:underline;}
+
+h1,h2,h3{margin:0;padding:0;display:inline;font-size:12px}
+
+div,table,td{word-break:keep-all;}
+
+
+
+#site{margin:0px auto;width:980px; height:100%;
+        padding:0 10px;margin-bottom:16px;}
+
+#top{height:131px;overflow:hidden;padding-left:58px; background:#fff url('/images/top/sitebg.gif') repeat-x top left;}
+
+
+
+.menul{background:url('/images/top/menul.gif') no-repeat left top;}
+
+.menur{background:url('/images/top/menur.gif') no-repeat right top;height:38px;overflow:hidden;padding:0 0 0 30px;}
+
+#menu{background:url('/images/top/menu.gif') repeat-x left top;}
+
+#menu li{float:left;height:38px;background:url('/images/top/menuli.gif') no-repeat right top; padding:0 12px 0 10px;}
+
+#menu li a{float:left;display:inline;height:38px;line-height:38px;text-align:center;font-weight:bold;color:#fff;padding-left:20px;}
+
+#menu li h3{display:block;padding-right:20px;float:left}
+
+#menu li a:hover,#menu li a.now{text-decoration:none;background:url('/images/top/menuover.gif') no-repeat left top;}
+
+#menu li a:hover h3,#menu li a.now h3{background:url('/images/top/menuover2.gif') no-repeat  right top;}
+
+#menu li.last{background:none;}
+			
+
+#main {
+	width: 980px;
+
+	display: block;
+	border: 1px solid white;
+	margin: 10px 0 0 0;
+	
+}
+
+#main-top {
+	width: 980px;
+	height: 50px;
+	display: block;
+	background: white;
+	
+}
+
+#main-content {
+	width: 980px;
+	display: block;
+	background: white;
+	margin: 10px 0 0 0;
+	
+}
+
+
+#main-bottom {
+	width: 980px;
+	height: 40px;
+	display: block;
+	background: white;
+	margin: 10px 0 0 0;
+	
+}
+
+#mon {
+	width: 980px;
+	height: 30px;
+	display: block;
+	background: white;
+	
+	font-size: 18px;
+	text-align: center;
+	color: black;
+
+}
+
+
+/*********************table**/
+
+
+
+ table {
+                width: 60%;
+                border-collapse: collapse;
+ 	margin: 10px 0 10px 0;
+                }
+  table tr {
+  	line-height: 1.0em;
+  }
+  table tr {
+  	
+  }
+                
+ table  th {
+                font-weight: bold;
+                font-size: 15px;
+                border-bottom: 1px solid #ddd;
+                }
+                
+#main-content  {
+                border-bottom: 1px solid #ddd;
+                }
+                
+table  tr td{
+                background: #fff;
+                font-size: 15px;
+	            color: black;
+                line-height: 1.0em;
+	            text-align: center;
+
+	            
+                }
+              
+tr.alt-row {
+                background: #f3f3f3;
+                }
+                
+table td,
+table th {
+                padding: 10px;
+                line-height: 1.3em;
+                }        
+				
+ table  td .bulk-actions {
+                padding: 5px 0 5px 0;
+                } 
+				
+table  td .bulk-actions select {
+                padding: 4px;
+				border: 1px solid #ccc;
+                }      

@@ -1,0 +1,5 @@
+E:\GitHub\ASPNET程序设计（2014版）\WEEK02_LECTURE\DDD\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\GitHub\ASPNET程序设计（2014版）\WEEK02_LECTURE\DDD\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\GitHub\ASPNET程序设计（2014版）\WEEK02_LECTURE\DDD\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\GitHub\ASPNET程序设计（2014版）\WEEK02_LECTURE\DDD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\GitHub\ASPNET程序设计（2014版）\WEEK02_LECTURE\DDD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

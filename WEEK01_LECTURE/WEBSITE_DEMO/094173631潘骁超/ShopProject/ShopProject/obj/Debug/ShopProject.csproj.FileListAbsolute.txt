@@ -1,0 +1,20 @@
+C:\Documents and Settings\Administrator\桌面\期末文件\ShopProject\ShopProject\bin\ShopProject.dll
+C:\Documents and Settings\Administrator\桌面\期末文件\ShopProject\ShopProject\bin\ShopProject.pdb
+C:\Documents and Settings\Administrator\桌面\期末文件\ShopProject\ShopProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\期末文件\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+C:\Documents and Settings\Administrator\桌面\期末文件\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+C:\Documents and Settings\Administrator\桌面\期末文件\Asp\ShopProject\ShopProject\bin\ShopProject.dll
+C:\Documents and Settings\Administrator\桌面\期末文件\Asp\ShopProject\ShopProject\bin\ShopProject.pdb
+C:\Documents and Settings\Administrator\桌面\期末文件\Asp\ShopProject\ShopProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\期末文件\Asp\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+C:\Documents and Settings\Administrator\桌面\期末文件\Asp\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+E:\Asp\ShopProject\ShopProject\bin\ShopProject.dll
+E:\Asp\ShopProject\ShopProject\bin\ShopProject.pdb
+E:\Asp\ShopProject\ShopProject\obj\Debug\ResolveAssemblyReference.cache
+E:\Asp\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+E:\Asp\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+E:\GitHub\ASPNET程序设计（2014版）\WEEK01_LECTURE\DEMO\094173631潘骁超\ShopProject\ShopProject\bin\ShopProject.dll
+E:\GitHub\ASPNET程序设计（2014版）\WEEK01_LECTURE\DEMO\094173631潘骁超\ShopProject\ShopProject\bin\ShopProject.pdb
+E:\GitHub\ASPNET程序设计（2014版）\WEEK01_LECTURE\DEMO\094173631潘骁超\ShopProject\ShopProject\obj\Debug\ResolveAssemblyReference.cache
+E:\GitHub\ASPNET程序设计（2014版）\WEEK01_LECTURE\DEMO\094173631潘骁超\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+E:\GitHub\ASPNET程序设计（2014版）\WEEK01_LECTURE\DEMO\094173631潘骁超\ShopProject\ShopProject\obj\Debug\ShopProject.pdb

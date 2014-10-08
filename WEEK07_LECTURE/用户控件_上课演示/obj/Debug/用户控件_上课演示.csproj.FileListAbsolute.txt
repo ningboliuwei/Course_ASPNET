@@ -1,5 +1,0 @@
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_上课演示\bin\用户控件_上课演示.dll
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_上课演示\bin\用户控件_上课演示.pdb
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_上课演示\obj\Debug\ResolveAssemblyReference.cache
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_上课演示\obj\Debug\用户控件_上课演示.dll
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_上课演示\obj\Debug\用户控件_上课演示.pdb

@@ -23,6 +23,8 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 		//    DropDownList1.Items.Add("ASP.NET程序设计");
 		//    DropDownList1.Items.Add("数据库原理");
 		//    DropDownList1.Items.Add("C语言程序设计");
+
+		//    DropDownList1.Items.Add();
 		//}
 
 
@@ -34,11 +36,13 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 
 
 		//通过绑定ArrayList来显示项目
-		//ArrayList courses = new ArrayList(){};
-		
+		//ArrayList courses = new ArrayList() { };
+
 		//courses.Add("ASP.NET程序设计");
 		//courses.Add("数据库原理");
 		//courses.Add("C语言程序设计");
+
+		//courses.Add("操作系统");
 
 		//DropDownList1.DataSource = courses;
 		//DropDownList1.DataBind();
@@ -54,7 +58,7 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 		//DropDownList1.DataTextField = "Name";
 		//DropDownList1.DataValueField = "No";
 		//DropDownList1.DataSource = courses;
-		//DropDownList1.DataBind();
+		DropDownList1.DataBind();
 	}
 
 	//以下演示绑定List<T>时使用到
@@ -72,17 +76,12 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 
 	protected void btnDisplay_Click(object sender, EventArgs e)
 	{
-		//显示选中项的Text属性
-		//lblInfo.Text = DropDownList1.SelectedItem.Text;
-		//显示选中项的Value属性
-		//lblInfo.Text = DropDownList1.SelectedItem.Value;
+		//显示选中项的Text与Value属性
+		//lblInfo.Text = DropDownList1.SelectedItem.Text +"," + DropDownList1.SelectedItem.Value;;
 
-		//以上两个操作也可以这么做
+		//以上操作也可以这么做
 		//ListItem listItem = DropDownList1.SelectedItem;
 		//lblInfo.Text = listItem.Text + "," + listItem.Value; ;
-
-		//DropDownList1.Text 与 DropDownList1.SelectedItem.Text 等效
-		//lblInfo.Text = DropDownList1.Text;
 
 		//DropDownList1.SelectedValue 与 DropDownList1.SelectedItem.Value 等效
 		//lblInfo.Text = DropDownList1.SelectedValue;
@@ -114,18 +113,22 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 	{
 		//将用户输入的文本作为选项添加
 		//DropDownList2.Items.Add(TextBox1.Text);
-		
+
 		//需要添加同时有Text与Value属性的选项（默认Value值与Text值保持一致）
 		//ListItem item = new ListItem();
 		//item.Text = TextBox1.Text;
 		//item.Value = TextBox2.Text;
 
 		//DropDownList2.Items.Add(item);
+		//DropDownList2.SelectedIndex = DropDownList2.Items.Count - 1;
 
 	}
 
 	protected void Button3_Click(object sender, EventArgs e)
 	{
+		//DropDownList2.Items.RemoveAt(DropDownList2.SelectedIndex);
+		
+		
 		//删除当前选中项
 		//DropDownList2.Items.RemoveAt(DropDownList2.SelectedIndex);
 
@@ -138,5 +141,14 @@ public partial class WEEK05_LECTURE_DEMO_DropDownListDemo : System.Web.UI.Page
 	{
 		//清空所有选项
 		//DropDownList2.Items.Clear();
+	}
+	protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+	{
+		
+	}
+	protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+	{
+		//当改变下拉列表选项时，自动显示选中项的Text与Value属性。
+		lblInfo.Text = DropDownList2.SelectedItem.Text + "," + DropDownList2.SelectedValue;
 	}
 }

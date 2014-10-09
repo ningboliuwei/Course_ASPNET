@@ -16,8 +16,8 @@
             <asp:ListItem Value="95003">C语言程序设计</asp:ListItem>
             <asp:ListItem Value="95004">数据结构</asp:ListItem>
             <asp:ListItem Value="95005">操作系统</asp:ListItem>-->
-        <asp:DropDownList ID="DropDownList1" runat="server">
-            
+        <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True"
+            onselectedindexchanged="DropDownList1_SelectedIndexChanged">
         </asp:DropDownList>
         <br />
         <asp:Button ID="btnDisplay" runat="server" Text="显示" OnClick="btnDisplay_Click" />
@@ -28,7 +28,8 @@
         <br />
         Value属性：<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <br />
-        <asp:DropDownList ID="DropDownList2" runat="server">
+        <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" 
+            onselectedindexchanged="DropDownList2_SelectedIndexChanged">
         </asp:DropDownList>
         <br />
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="添加" />

@@ -1,8 +1,0 @@
-test_newbook - 袁坚
-管理员——用户名：1111，密码：1
-普通用户——用户名：1，密码：1
-
-ShopProject - 潘骁超 入口：http://localhost:3304/BookLogin.aspx
-管理员——用户名：admin，密码：123
-普通用户——用户名：pxc，密码：123
-

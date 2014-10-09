@@ -1,5 +1,0 @@
-D:\VS2008\ASP.NET程序设计（2011版）\Menu控件\bin\Menu控件.dll
-D:\VS2008\ASP.NET程序设计（2011版）\Menu控件\bin\Menu控件.pdb
-D:\VS2008\ASP.NET程序设计（2011版）\Menu控件\obj\Debug\ResolveAssemblyReference.cache
-D:\VS2008\ASP.NET程序设计（2011版）\Menu控件\obj\Debug\Menu控件.dll
-D:\VS2008\ASP.NET程序设计（2011版）\Menu控件\obj\Debug\Menu控件.pdb

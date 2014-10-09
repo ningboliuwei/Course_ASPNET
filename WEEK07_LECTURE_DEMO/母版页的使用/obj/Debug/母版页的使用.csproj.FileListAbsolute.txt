@@ -1,5 +1,0 @@
-D:\VS2008\ASP.NET程序设计（2011版）\母版页的使用\bin\母版页的使用.dll
-D:\VS2008\ASP.NET程序设计（2011版）\母版页的使用\bin\母版页的使用.pdb
-D:\VS2008\ASP.NET程序设计（2011版）\母版页的使用\obj\Debug\ResolveAssemblyReference.cache
-D:\VS2008\ASP.NET程序设计（2011版）\母版页的使用\obj\Debug\母版页的使用.dll
-D:\VS2008\ASP.NET程序设计（2011版）\母版页的使用\obj\Debug\母版页的使用.pdb

@@ -17,10 +17,10 @@
    
 <asp:DropDownList ID="drpFontSize" runat="server" AutoPostBack="True" onselectedindexchanged="drpFontSize_SelectedIndexChanged" >
     <asp:ListItem Text="超小字体" Value="10"></asp:ListItem>
-    <asp:ListItem Text="小字体" Value="10"></asp:ListItem>
-    <asp:ListItem Text="中字体" Value="10"></asp:ListItem>
-    <asp:ListItem Text="大字体" Value="10"></asp:ListItem>
-    <asp:ListItem Text="超大字体" Value="10"></asp:ListItem>
+    <asp:ListItem Text="小字体" Value="20"></asp:ListItem>
+    <asp:ListItem Text="中字体" Value=30"></asp:ListItem>
+    <asp:ListItem Text="大字体" Value="40"></asp:ListItem>
+    <asp:ListItem Text="超大字体" Value="50"></asp:ListItem>
 </asp:DropDownList>
                         </td>
                     </tr>

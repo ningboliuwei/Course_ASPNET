@@ -1,0 +1,170 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK05_LECTURE_DEMO\", "{C701F467-10EE-4A98-B61E-1C8D936B4388}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK05_LECTURE_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK05_LECTURE_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LECTURE_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK05_LECTURE_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK05_LECTURE_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LECTURE_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64799"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LAB_DEMO", "WEEK05_LAB_DEMO\", "{6E57C683-D719-4773-B5F9-04C54C9F7DF2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK05_LAB_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK05_LAB_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LAB_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK05_LAB_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK05_LAB_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LAB_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64801"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_TEMP_DEMO", "WEEK03_LECTURE_TEMP_DEMO\", "{FE85AC66-0497-40C5-BFAB-808D035DC0F5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_TEMP_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_TEMP_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_TEMP_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_TEMP_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_TEMP_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_TEMP_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64803"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_DEMO", "WEEK03_LECTURE_DEMO\", "{55117C39-50F8-40C9-A6E1-C5EF9310A060}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64805"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LAB_DEMO", "WEEK03_LAB_DEMO\", "{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LAB_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LAB_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LAB_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK03_LAB_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK03_LAB_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LAB_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64807"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LAB_DEMO", "WEEK02_LAB_DEMO\", "{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK02_LAB_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK02_LAB_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LAB_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK02_LAB_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK02_LAB_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LAB_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64827"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LECTURE_DEMO", "WEEK02_LECTURE_DEMO\", "{92E3DE99-12F1-4931-869E-C28CFDEA5813}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WEEK02_LECTURE_DEMO"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK02_LECTURE_DEMO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LECTURE_DEMO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WEEK02_LECTURE_DEMO"
+		Release.AspNetCompiler.PhysicalPath = "WEEK02_LECTURE_DEMO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LECTURE_DEMO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50024"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|.NET.Build.0 = Debug|.NET
+		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|.NET.Build.0 = Debug|.NET
+		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|.NET.ActiveCfg = Debug|.NET
+		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|.NET.Build.0 = Debug|.NET
+		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|.NET.ActiveCfg = Debug|.NET
+		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|.NET.Build.0 = Debug|.NET
+		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|.NET.Build.0 = Debug|.NET
+		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|.NET.Build.0 = Debug|.NET
+		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|.NET.ActiveCfg = Debug|.NET
+		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

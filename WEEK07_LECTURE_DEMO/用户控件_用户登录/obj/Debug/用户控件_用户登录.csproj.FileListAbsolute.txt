@@ -1,5 +1,0 @@
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_用户登录\bin\用户控件_用户登录.dll
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_用户登录\bin\用户控件_用户登录.pdb
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_用户登录\obj\Debug\ResolveAssemblyReference.cache
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_用户登录\obj\Debug\用户控件_用户登录.dll
-D:\VS2008\ASP.NET程序设计（2011版）\用户控件_用户登录\obj\Debug\用户控件_用户登录.pdb

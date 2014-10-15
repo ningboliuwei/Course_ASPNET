@@ -21,7 +21,7 @@
         </p>
         <p>爱好：<asp:CheckBox ID="chkReading" runat="server" Text="阅读" /><asp:CheckBox ID="chkSing" runat="server" Text="唱歌" /><asp:CheckBox ID="chkDance" runat="server" Text="跳舞" /></p>
         <p>个人简介：<br/><asp:TextBox ID="txtResume" runat="server" TextMode="MultiLine" 
-                Height="100px" Width="400px" ontextchanged="txtResume_TextChanged"/></p>
+                Height="100px" Width="400px" /></p>
         <p><asp:Button runat="server" ID="btnOK" Text="注册" onclick="btnOK_Click" /></p>
     </div>
     </form>

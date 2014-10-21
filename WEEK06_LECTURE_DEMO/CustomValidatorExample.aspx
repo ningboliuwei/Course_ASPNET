@@ -14,9 +14,6 @@
             runat="server" ErrorMessage="这不是一个偶数" 
             onservervalidate="cvEvenNumber_ServerValidate"></asp:CustomValidator><br/>
         <asp:Button ID="btnSubmit" runat="server" Text="确定" />
-        <asp:RangeValidator ID="rvGrade" runat="server" ControlToValidate="txtGrade" MaximumValue="100" MinimumValue="0" Type="Integer"/>
-        <asp:CompareValidator ID="cvPassword" runat="server" ControlToCompare="txtPassword" ControlToValidate="txtPasswordAgain" Text="密码与确认密码不一致！"/>
-        <asp:RegularExpressionValidator ID="revMail" runat="server" ControlToValidate="txtMail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Text="必须为合法的E-mail地址"/>
     </div>
     </form>
 </body>

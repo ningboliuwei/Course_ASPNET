@@ -1,11 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK05_LECTURE_DEMO\", "{C701F467-10EE-4A98-B61E-1C8D936B4388}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK05_LECTURE_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK05_LECTURE_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LECTURE_DEMO\"
@@ -21,13 +19,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64799"
-		SlnRelativePath = "WEEK05_LECTURE_DEMO\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LAB_DEMO", "WEEK05_LAB_DEMO\", "{6E57C683-D719-4773-B5F9-04C54C9F7DF2}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK05_LAB_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK05_LAB_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK05_LAB_DEMO\"
@@ -43,13 +40,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LAB_DEMO", "WEEK05_L
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64801"
-		SlnRelativePath = "WEEK05_LAB_DEMO\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_TEMP_DEMO", "WEEK03_LECTURE_TEMP_DEMO\", "{FE85AC66-0497-40C5-BFAB-808D035DC0F5}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_TEMP_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_TEMP_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_TEMP_DEMO\"
@@ -65,12 +61,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_TEMP_DEMO", 
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64803"
-		SlnRelativePath = "WEEK03_LECTURE_TEMP_DEMO\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_DEMO", "WEEK03_LECTURE_DEMO\", "{55117C39-50F8-40C9-A6E1-C5EF9310A060}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LECTURE_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LECTURE_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LECTURE_DEMO\"
@@ -86,12 +81,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LECTURE_DEMO", "WEEK
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64805"
-		SlnRelativePath = "WEEK03_LECTURE_DEMO\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LAB_DEMO", "WEEK03_LAB_DEMO\", "{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK03_LAB_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK03_LAB_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK03_LAB_DEMO\"
@@ -107,12 +101,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK03_LAB_DEMO", "WEEK03_L
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64807"
-		SlnRelativePath = "WEEK03_LAB_DEMO\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LAB_DEMO", "WEEK02_LAB_DEMO\", "{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK02_LAB_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK02_LAB_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LAB_DEMO\"
@@ -128,12 +121,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LAB_DEMO", "WEEK02_L
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64827"
-		SlnRelativePath = "WEEK02_LAB_DEMO\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LECTURE_DEMO", "WEEK02_LECTURE_DEMO\", "{92E3DE99-12F1-4931-869E-C28CFDEA5813}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK02_LECTURE_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK02_LECTURE_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK02_LECTURE_DEMO\"
@@ -149,13 +141,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK02_LECTURE_DEMO", "WEEK
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50024"
-		SlnRelativePath = "WEEK02_LECTURE_DEMO\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK06_LECTURE_DEMO", "WEEK06_LECTURE_DEMO\", "{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK06_LECTURE_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK06_LECTURE_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK06_LECTURE_DEMO\"
@@ -171,13 +162,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK06_LECTURE_DEMO", "WEEK
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63483"
-		SlnRelativePath = "WEEK06_LECTURE_DEMO\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK06_LECTURE_TEMP_DEMO", "WEEK06_LECTURE_TEMP_DEMO\", "{C368C724-BEDC-448F-884B-E3CE7E8C1B09}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFramework = "3.5"
 		Debug.AspNetCompiler.VirtualPath = "/WEEK06_LECTURE_TEMP_DEMO"
 		Debug.AspNetCompiler.PhysicalPath = "WEEK06_LECTURE_TEMP_DEMO\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WEEK06_LECTURE_TEMP_DEMO\"
@@ -193,89 +183,32 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK06_LECTURE_TEMP_DEMO", 
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "18044"
-		SlnRelativePath = "WEEK06_LECTURE_TEMP_DEMO\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK07_LECTURE_DEMO", "http://localhost:21372", "{6429AA11-B343-4010-84C1-32D5E6EBED4E}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_21372"
-		Debug.AspNetCompiler.PhysicalPath = "WEEK07_LECTURE_DEMO\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21372\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_21372"
-		Release.AspNetCompiler.PhysicalPath = "WEEK07_LECTURE_DEMO\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21372\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "WEEK07_LECTURE_DEMO\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
-		Debug|Any CPU = Debug|Any CPU
-		Debug|Mixed Platforms = Debug|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{6429AA11-B343-4010-84C1-32D5E6EBED4E}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{6429AA11-B343-4010-84C1-32D5E6EBED4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6429AA11-B343-4010-84C1-32D5E6EBED4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6429AA11-B343-4010-84C1-32D5E6EBED4E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{6429AA11-B343-4010-84C1-32D5E6EBED4E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C701F467-10EE-4A98-B61E-1C8D936B4388}.Debug|.NET.Build.0 = Debug|.NET
+		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6E57C683-D719-4773-B5F9-04C54C9F7DF2}.Debug|.NET.Build.0 = Debug|.NET
+		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|.NET.ActiveCfg = Debug|.NET
+		{FE85AC66-0497-40C5-BFAB-808D035DC0F5}.Debug|.NET.Build.0 = Debug|.NET
+		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|.NET.ActiveCfg = Debug|.NET
+		{55117C39-50F8-40C9-A6E1-C5EF9310A060}.Debug|.NET.Build.0 = Debug|.NET
+		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D0AA1920-495F-4D3E-BDDB-DCBD8081DE07}.Debug|.NET.Build.0 = Debug|.NET
+		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D74B19C5-59A5-4C6C-83B8-CC273F6176CC}.Debug|.NET.Build.0 = Debug|.NET
+		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|.NET.ActiveCfg = Debug|.NET
+		{92E3DE99-12F1-4931-869E-C28CFDEA5813}.Debug|.NET.Build.0 = Debug|.NET
+		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{A60F017D-BF48-4200-9A5D-F9866F3EE8A4}.Debug|.NET.Build.0 = Debug|.NET
+		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C368C724-BEDC-448F-884B-E3CE7E8C1B09}.Debug|.NET.Build.0 = Debug|.NET
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

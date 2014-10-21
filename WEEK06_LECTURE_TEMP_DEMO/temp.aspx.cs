@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 
-public partial class Temp : System.Web.UI.Page
+public partial class temp : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -20,11 +20,5 @@ public partial class Temp : System.Web.UI.Page
 	protected void Button1_Click(object sender, EventArgs e)
 	{
 		Response.Write("提交成功");
-		Page.Validate();
-	}
-	protected void btnReset_Click(object sender, EventArgs e)
-	{
-		
-		Response.Redirect("DisplayExample.aspx");
 	}
 }

@@ -16,7 +16,8 @@
             ID="RangeValidator1" runat="server"  ControlToValidate="TextBox1" MinimumValue="0" MaximumValue="120" Type="Integer" ErrorMessage="年龄的范围必须在0~120之间"></asp:RangeValidator>
    <br/> <asp:Button ID="Button1" runat="server" Text="确定" 
         onclick="Button1_Click" />
-        <asp:Button runat="server" ID="btnReset" Text="重置" CausesValidation="False"/>
+        <asp:Button runat="server" ID="btnReset" Text="重置"
+        onclick="btnReset_Click"  CausesValidation="False" />
         
     </form>
     

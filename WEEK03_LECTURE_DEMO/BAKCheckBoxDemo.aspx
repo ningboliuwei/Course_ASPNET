@@ -14,11 +14,11 @@
     
     </div>
     <asp:CheckBox ID="chxFootball" runat="server" AutoPostBack="True" 
-        oncheckedchanged="chxFootball_CheckedChanged" Text="足球" />
+        Text="足球" />
     <asp:CheckBox ID="chxBasketball" runat="server" AutoPostBack="True" 
-        oncheckedchanged="chxBasketball_CheckedChanged" Text="篮球" />
+         Text="篮球" />
     <br />
-    <asp:Button ID="btnDisplay" runat="server" onclick="Button1_Click" Text="显示" />
+    <asp:Button ID="btnDisplay" runat="server" Text="显示" />
     </form>
 </body>
 </html>

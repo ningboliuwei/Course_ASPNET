@@ -38,7 +38,8 @@
         固定电话：<asp:TextBox ID="txtTel" runat="server"></asp:TextBox><asp:RegularExpressionValidator
             ID="revTel" runat="server" ControlToValidate="txtTel" ErrorMessage="电话号码格式不合法"
             ValidationExpression="(\(\d{3,4}\)|\d{3,4}-)?\d{7,8}$"></asp:RegularExpressionValidator><br />
-        <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+        <asp:ValidationSummary ID="ValidationSummary1" runat="server" 
+            ShowMessageBox="True" />
         <br />
         <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="注册" />
     </div>

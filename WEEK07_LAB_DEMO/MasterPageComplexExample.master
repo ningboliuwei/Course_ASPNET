@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageComplexExample.master.cs" Inherits="MasterPageComplexExample" %>
+
+<%@ Register src="FooterControl.ascx" tagname="FooterControl" tagprefix="uc1" %>
+<%@ Register src="ucLogin.ascx" tagname="ucLogin" tagprefix="uc2" %>
+<%@ Register src="HeaderControl.ascx" tagname="HeaderControl" tagprefix="uc3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head runat="server">
+        <title>无标题页</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body style="background-color: #87CEFA; font-size: 14px;">
+        <form id="form1" runat="server">
+            <div style="background-color: White; margin: auto; width: 850px;">
+                <div>
+                    <uc3:HeaderControl ID="HeaderControl1" runat="server" />
+                </div>
+                <div style="background-color: White; float: left; margin: 0; text-align: left; width: 200px;">
+                
+                    <uc2:ucLogin ID="ucLogin1" runat="server" />
+                
+                </div>
+                <div style="background-color: White; float: left; margin: auto; width: 650px;">
+                    <div style="line-height: 30px; padding: 10px">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    
+                </div>
+                <div style="margin: auto; width: 850px;">
+                    <uc1:FooterControl ID="FooterControl1" runat="server" />
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="SiteMapExample_Default.aspx" title="欢迎页面" description="">
+    <siteMapNode url="Admin/SiteMapExample_AdminCenter.aspx" title="管理员中心" description="">
+      <siteMapNode url="Admin/SiteMapExample_AdminLogin.aspx" title="管理员登录" description="" />
+      <siteMapNode url="Admin/SiteMapExample_AdminList.aspx" title="管理员列表" description="" />
+    </siteMapNode>
+    <siteMapNode url="SiteMapExample_ItemDetails.aspx" title="物品列表" description="">
+      <siteMapNode url="SiteMapExample_ItemList.aspx" title="物品详细信息" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

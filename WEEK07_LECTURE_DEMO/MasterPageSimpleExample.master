@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageSimpleExample.master.cs" Inherits="MasterPageSimpleExample" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>无标题页</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div>
+      
+                <table style="width: 800px;margin: auto;">
+                    <tr>
+                        <td colspan="2" >
+                            <img src="images/Banner.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                       
+                            <img alt="" src="images/SideBar.png" /></td>
+                        <td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <img src="images/MainList.png" /></asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img src="images/Footer.png" /></td>
+                    </tr>
+                </table>
+             
+            </div>
+        </form>
+    </body>
+</html>

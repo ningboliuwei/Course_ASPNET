@@ -11,7 +11,7 @@
         <form id="form1" runat="server">
             <div>
                 <asp:Menu ID="mnuMain" runat="server" 
-                          Orientation="Horizontal" OnMenuItemClick="mnuMain_MenuItemClick">
+                          Orientation="Horizontal" >
                     <Items>
                         <asp:MenuItem Text="视频教程" Value="视频教程">
                             <asp:MenuItem Text="C# 2.0" Value="C# 2.0"></asp:MenuItem>

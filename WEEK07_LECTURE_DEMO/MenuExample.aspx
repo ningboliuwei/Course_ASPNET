@@ -11,7 +11,7 @@
         <form id="form1" runat="server">
             <div>
                 <asp:Menu ID="mnuMain" runat="server" 
-                          Orientation="Horizontal" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#666666" StaticSubMenuIndent="10px" style="margin-top: 15px">
+                          Orientation="Horizontal" >
                     <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <DynamicMenuStyle BackColor="#E3EAEB" />

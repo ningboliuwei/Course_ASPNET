@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK05_LECTURE_DEMO\", "{C701F467-10EE-4A98-B61E-1C8D936B4388}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -241,6 +241,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK07_LAB_DEMO", "http://l
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK09_LECTURE", "http://localhost:64336", "{D8102541-0ACE-41BE-B369-53F0B07BCB2A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64336"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK09_LECTURE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64336\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64336"
+		Release.AspNetCompiler.PhysicalPath = "WEEK09_LECTURE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64336\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WEEK09_LECTURE\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -303,6 +325,11 @@ Global
 		{B79F9C9F-974F-4582-A4C7-3C992F2F6F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B79F9C9F-974F-4582-A4C7-3C992F2F6F68}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{B79F9C9F-974F-4582-A4C7-3C992F2F6F68}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D8102541-0ACE-41BE-B369-53F0B07BCB2A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D8102541-0ACE-41BE-B369-53F0B07BCB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8102541-0ACE-41BE-B369-53F0B07BCB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8102541-0ACE-41BE-B369-53F0B07BCB2A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D8102541-0ACE-41BE-B369-53F0B07BCB2A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

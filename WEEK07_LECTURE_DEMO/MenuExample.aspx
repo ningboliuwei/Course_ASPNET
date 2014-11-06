@@ -11,7 +11,11 @@
         <form id="form1" runat="server">
             <div>
                 <asp:Menu ID="mnuMain" runat="server" 
-                          Orientation="Horizontal" OnMenuItemClick="mnuMain_MenuItemClick">
+                          Orientation="Horizontal" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#666666" StaticSubMenuIndent="10px" style="margin-top: 15px">
+                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
                     <Items>
                         <asp:MenuItem Text="视频教程" Value="视频教程">
                             <asp:MenuItem Text="C# 2.0" Value="C# 2.0"></asp:MenuItem>
@@ -33,6 +37,9 @@
                         </asp:MenuItem>
                         <asp:MenuItem Text="E网打尽" Value="E网打尽"></asp:MenuItem>
                     </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#1C5E55" />
                 </asp:Menu>
             </div>
         </form>

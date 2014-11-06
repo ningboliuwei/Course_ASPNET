@@ -16,11 +16,14 @@
         <form id="form1" runat="server">
             <div style="background-color: White; margin: auto; width: 850px;">
                 <div>
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
                     <uc3:HeaderControl ID="HeaderControl1" runat="server" />
                 </div>
                 <div style="background-color: White; float: left; margin: 0; text-align: left; width: 200px;">
                 
                     <uc2:ucLogin ID="ucLogin1" runat="server" />
+                  
                 
                 </div>
                 <div style="background-color: White; float: left; margin: auto; width: 650px;">
@@ -32,6 +35,8 @@
                     
                 </div>
                 <div style="margin: auto; width: 850px;">
+                    <asp:SiteMapPath ID="SiteMapPath2" runat="server">
+                    </asp:SiteMapPath>
                     <uc1:FooterControl ID="FooterControl1" runat="server" />
                 </div>
             </div>

@@ -26,12 +26,11 @@ public partial class DataAdapterBasicExample : System.Web.UI.Page
 			new SqlConnection("server=.;database=schooldb;uid=ASPNET;pwd=ASPNET"))
 		{
 			string selectCommandText = "SELECT * FROM Student";
-
 			//第一步
-			//dataAdapter = new SqlDataAdapter(selectCommandText, connection);
-			//dataAdapter.Fill(dataSet, "student");
-			//gdvStudent.DataSource = dataSet.Tables["student"];
-			//gdvStudent.DataBind();
+			dataAdapter = new SqlDataAdapter(selectCommandText, connection);
+			dataAdapter.Fill(dataSet, "student");
+			dgvStudent.DataSource = dataSet.Tables["student"];
+			dgvStudent.DataBind();
 			//第一步
 
 			//第二步
@@ -39,7 +38,7 @@ public partial class DataAdapterBasicExample : System.Web.UI.Page
 			//selectCommandText = "SELECT * FROM Course";
 			//dataAdapter.SelectCommand.CommandText = selectCommandText;
 			//dataAdapter.Fill(dataSet, "course");
-			dgvStudent.DataSource = dataSet.Tables["course"];
+			//dgvStudent.DataSource = dataSet.Tables["course"];
 			//gdvStudent.DataBind();
 			//第二步
 

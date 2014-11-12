@@ -27,11 +27,13 @@ public partial class GridViewDataSourceWizardCRUDExample : System.Web.UI.Page
 
 	protected void btnInsert_Click(object sender, EventArgs e)
 	{
+		SqlDataSource1.Insert();
 		gridview1.DataBind();
 	}
 
 	protected void btnUpdate_Click(object sender, EventArgs e)
 	{
+		SqlDataSource1.Update();
 		gridview1.DataBind();
 	}
 }

@@ -11,8 +11,8 @@ public partial class DataTableExample : System.Web.UI.Page
 	protected void Page_Load(object sender, EventArgs e)
 	{
 		DataTable table = new DataTable();
-        //第二步
-        //table.Columns.Add("Sn", typeof(int));
+		//第二步
+		//table.Columns.Add("Sn", typeof(int));
 		table.Columns.Add("Sno", typeof(string));
 		table.Columns.Add("Sname", typeof(string));
 		table.Columns.Add("Sage", typeof(int));
@@ -32,12 +32,12 @@ public partial class DataTableExample : System.Web.UI.Page
 		table.Rows.Add(row);
 
 		//table.Rows.RemoveAt(1);
-	    
-        //第二步
-        //for (int i = 0; i < table.Rows.Count; i++)
-        //{
-        //    table.Rows[i]["Sn"] = i + 1;
-        //}
+		
+		//第二步
+		//for (int i = 0; i < table.Rows.Count; i++)
+		//{
+		//    table.Rows[i]["Sn"] = i + 1;
+		//}
 
 		GridView1.DataSource = table;
 		GridView1.DataBind();

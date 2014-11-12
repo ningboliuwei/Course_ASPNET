@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="E:\HTTP\教学相关\ASPNET2011\WEEK08_LAB_DEMO1\">
+    <file relUrl="StudentList.aspx" publishTime="10/28/2011 12:10:12" />
+    <file relUrl="bin/基本ADONET对象的使用.pdb" publishTime="10/27/2011 16:00:55" />
+    <file relUrl="StudentRegister.aspx" publishTime="10/28/2011 10:55:32" />
+    <file relUrl="bin/基本ADONET对象的使用.dll" publishTime="10/27/2011 16:00:55" />
+    <file relUrl="Web.config" publishTime="10/27/2011 15:58:39" />
+  </publishTarget>
+</publishData>

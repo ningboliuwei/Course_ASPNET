@@ -56,7 +56,6 @@ public partial class GridViewDataAdapterCRUDExample : System.Web.UI.Page
 			row["Ssex"] = "女";
 			row["Sdept"] = "SE";
 			dataSet.Tables[0].Rows.InsertAt(row, dataSet.Tables[0].Rows.Count);
-
 			dataAdapter.Update(dataSet);
 	}
 

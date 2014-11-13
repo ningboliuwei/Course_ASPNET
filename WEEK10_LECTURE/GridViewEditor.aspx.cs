@@ -21,9 +21,8 @@ public partial class GridViewEditor : System.Web.UI.Page
 
 	protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
 	{
-		//lblInfo.Text = (GridView1.SelectedIndex).ToString();
 		GridView1.Rows[GridView1.SelectedIndex].BackColor = Color.LightPink;
-
+		//遍历 GridView 中所有行，若当前行被选中在，则修改背景色，否则设为默认的透明背景色。
 		foreach (GridViewRow row in GridView1.Rows)
 		{
 			if (row == GridView1.SelectedRow)
@@ -39,7 +38,6 @@ public partial class GridViewEditor : System.Web.UI.Page
 
 	private void BindGridView()
 	{
-		//-----------------------使用DataAdapter+DataSet显示数据-----------------
 		using (
 			SqlConnection connection =
 				new SqlConnection(connectionString))
@@ -50,7 +48,6 @@ public partial class GridViewEditor : System.Web.UI.Page
 			GridView1.DataSource = dataSet;
 			GridView1.DataBind();
 		}
-		//-----------------------使用DataAdapter+DataSet显示数据-----------------
 
 	}
 
@@ -68,10 +65,7 @@ public partial class GridViewEditor : System.Web.UI.Page
 
 	protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
 	{
-		//-------------------------------使用SQL语句删除----------------------
 		string id = GridView1.Rows[e.RowIndex].Cells[3].Text;
-		//GridView1.DataKeyNames = new string[] {"StudentId"};
-		//lblInfo.Text = id;
 
 		using (
 			SqlConnection connection =
@@ -100,7 +94,9 @@ public partial class GridViewEditor : System.Web.UI.Page
 			SqlConnection connection =
 				new SqlConnection(connectionString))
 		{
-			string commanText = string.Format("UPDATE Student SET Sname = '{0}', Ssex = '{1}', Sage = '{2}', Sdept = '{3}' WHERE Sno = '{4}'", sname, ssex, sage, sdept, sno);
+			string commanText =
+				string.Format("UPDATE Student SET Sname = '{0}', Ssex = '{1}', Sage = '{2}', Sdept = '{3}' WHERE Sno = '{4}'", sname,
+					ssex, sage, sdept, sno);
 			var command = new SqlCommand(commanText, connection);
 			if (connection.State != ConnectionState.Open)
 			{
@@ -109,17 +105,7 @@ public partial class GridViewEditor : System.Web.UI.Page
 			command.ExecuteNonQuery();
 			GridView1.EditIndex = -1;
 			BindGridView();
-			
+
 		}
-
-
-	}
-	protected void GridView1_RowDeleted(object sender, GridViewDeletedEventArgs e)
-	{
-
-	}
-	protected void GridView1_RowUpdated(object sender, GridViewUpdatedEventArgs e)
-	{
-		
 	}
 }

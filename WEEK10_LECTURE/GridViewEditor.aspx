@@ -14,7 +14,7 @@
                               onrowcancelingedit="GridView1_RowCancelingEdit" 
                               onrowdeleting="GridView1_RowDeleting" 
                               onrowupdating="GridView1_RowUpdating" 
-                    onrowediting="GridView1_RowEditing" OnRowDeleted="GridView1_RowDeleted" OnRowUpdated="GridView1_RowUpdated">
+                    onrowediting="GridView1_RowEditing" >
                     <Columns>
                         <asp:CommandField ButtonType="Button" ShowSelectButton="True" />
                         <asp:CommandField ShowEditButton="True" />

@@ -22,7 +22,7 @@ public class SqlHelper
 		try
 		{
 			string connectionString = "server=.;database=School;uid=ASPNET;pwd=ASPNET;";
-			var connection = new SqlConnection(connectionString);
+			SqlConnection connection = new SqlConnection(connectionString);
 			return connection;
 		}
 		catch (Exception exception)
@@ -35,8 +35,8 @@ public class SqlHelper
 	{
 		try
 		{
-			var dataAdapter = new SqlDataAdapter(selectCommandText, connection);
-			var dataSet = new DataSet();
+			SqlDataAdapter dataAdapter = new SqlDataAdapter(selectCommandText, connection);
+			DataSet dataSet = new DataSet();
 			dataAdapter.Fill(dataSet);
 
 			return dataSet;

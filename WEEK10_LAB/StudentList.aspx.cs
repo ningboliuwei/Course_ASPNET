@@ -56,4 +56,46 @@ public partial class _Default : System.Web.UI.Page
 	{
 		Response.Redirect("StudentRegister.aspx");
 	}
+	protected void gridStudent_RowEditing(object sender, GridViewEditEventArgs e)
+	{
+		gridStudent.EditIndex = e.NewEditIndex;
+		ShowData();
+	}
+	protected void gridStudent_RowUpdating(object sender, GridViewUpdateEventArgs e)
+	{
+		SqlConnection connection = SqlHelper.GetConnection();
+		var dataAdapter = new SqlDataAdapter(selectCommandText, connection);
+		var builder = new SqlCommandBuilder(dataAdapter);
+		dataAdapter.DeleteCommand = builder.GetDeleteCommand();
+		DataSet dataSet = SqlHelper.GetDataSetBySqlCommand(selectCommandText, connection);
+	
+		
+
+		string studentID = (gridStudent.Rows[e.RowIndex].Cells[1].Controls[0] as TextBox).Text;
+		string name = (gridStudent.Rows[e.RowIndex].Cells[2].Controls[0] as TextBox).Text;
+		string gender = (gridStudent.Rows[e.RowIndex].Cells[3].Controls[0] as TextBox).Text;
+		string dayOfBirth = (gridStudent.Rows[e.RowIndex].Cells[4].Controls[0] as TextBox).Text;
+		string address = (gridStudent.Rows[e.RowIndex].Cells[5].Controls[0] as TextBox).Text;
+		string department = (gridStudent.Rows[e.RowIndex].Cells[6].Controls[0] as TextBox).Text;
+
+		//获取 DataSet 中与点击了 “编辑” 按钮的这行对应的数据行
+		DataRow row = dataSet.Tables[0].Rows[e.RowIndex];
+		//修改其中各字段的值
+		row["StudentID"] = studentID;
+		row["Name"] = name;
+		row["Gender"] = gender;
+		row["DayOfBirth"] = dayOfBirth;
+		row["Address"] = address;
+		row["Department"] = department;
+
+		//提交到数据库中
+		dataAdapter.Update(dataSet);
+		gridStudent.EditIndex = -1;
+		ShowData();
+	}
+	protected void gridStudent_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+	{
+		gridStudent.EditIndex = -1;
+		ShowData();
+	}
 }

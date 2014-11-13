@@ -18,7 +18,7 @@
                     <tr>
                         <td>
                             <asp:GridView ID="gridStudent" runat="server" Width="100%" 
-                                          AutoGenerateColumns="False">
+                                          AutoGenerateColumns="False" EnableModelValidation="True" OnRowCancelingEdit="gridStudent_RowCancelingEdit" OnRowEditing="gridStudent_RowEditing" OnRowUpdating="gridStudent_RowUpdating">
                                 <Columns>
                                     <asp:BoundField  HeaderText="序号" />
                                     <asp:BoundField DataField="StudentID" HeaderText="学号" />
@@ -28,6 +28,7 @@
                                                     HeaderText="出生日期" />
                                     <asp:BoundField DataField="Address" HeaderText="通讯地址" />
                                     <asp:BoundField DataField="Department" HeaderText="系" />
+                                    <asp:CommandField ShowEditButton="True" />
                                 </Columns>
                             </asp:GridView>
                         </td>

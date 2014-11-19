@@ -29,12 +29,14 @@ public partial class AddStudent : System.Web.UI.Page
 		{
 			SqlConnection connection = SqlHelper.GetConnection();
 			DataTable dataTable = SqlHelper.GetDataSetBySqlCommand("SELECT * FROM Department", connection).Tables[0];
+			dropDepartment.DataTextField = "Name";
+			dropDepartment.DataValueField = "DepartmentID";
 			dropDepartment.DataSource = dataTable;
 			dropDepartment.DataBind();
 		}
-		catch (Exception exception)
+		catch (Exception ex)
 		{
-			lblInfo.Text = exception.Message;
+			lblInfo.Text = ex.Message;
 		}
 	}
 
@@ -65,7 +67,7 @@ public partial class AddStudent : System.Web.UI.Page
 
 			string insertCommandText =
 				string.Format(
-					@"INSERT INTO Student2(StudentID, Name, Gender, DayOfBirth, Address, Department, Photo)
+					@"INSERT INTO Student(StudentID, Name, Gender, DayOfBirth, Address, DepartmentID, Photo)
                                                             VALUES('{0}','{1}','{2}','{3}','{4}',{5},'{6}')",
 					studentID,
 					studentName,
@@ -76,11 +78,11 @@ public partial class AddStudent : System.Web.UI.Page
 					fileName);
 			SqlHelper.ExecuteNonQuerySqlCommand(insertCommandText, connection);
 
-			lblInfo.Text = "添加成功，<a href='Default.aspx'>点击此处</a>查看所有学生记录";
+			lblInfo.Text = "添加成功，<a href='StudentList.aspx'>点击此处</a>查看所有学生记录";
 		}
-		catch (Exception exception)
+		catch (Exception ex)
 		{
-			lblInfo.Text = exception.Message;
+			lblInfo.Text = ex.Message;
 		}
 	}
 

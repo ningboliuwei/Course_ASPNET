@@ -6,7 +6,7 @@
 <head id="Head1" runat="server">
     <title>无标题页</title>
 </head>
-<body bgcolor="lightblue">
+<body>
     <form id="form1" runat="server">
         <div style="border: #ccc solid 1px; width: 500px; margin: auto;">
             <table width="100%" border="0" align="center">
@@ -50,10 +50,7 @@
                     </td>
                     <td>
                         <asp:DropDownList ID="dropDepartment" runat="server" Width="300px">
-                            <asp:ListItem runat="server">计算机科学与技术</asp:ListItem>
-                            <asp:ListItem runat="server">软件工程</asp:ListItem>
-                            <asp:ListItem runat="server">电子信息工程</asp:ListItem>
-                            <asp:ListItem runat="server">电子信息科学与技术</asp:ListItem>
+                            
                         </asp:DropDownList>
                     </td>
                 </tr>

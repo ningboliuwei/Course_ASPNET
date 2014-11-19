@@ -11,7 +11,7 @@ using System.Web;
 public class SqlHelper
 {
 
-	private static readonly string connectionString = "server=10.22.149.105;database=school;uid=ASPNET;pwd=ASPNET;";
+	private static readonly string connectionString = "server=.;database=school;uid=ASPNET;pwd=ASPNET;";
 	public SqlHelper()
 	{
 	}

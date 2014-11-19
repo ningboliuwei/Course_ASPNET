@@ -22,8 +22,8 @@ public partial class StudentList : System.Web.UI.Page
 		SqlConnection connection = SqlHelper.GetConnection();
 		DataSet dataSet =
 			SqlHelper.GetDataSetBySqlCommand(
-				@"SELECT StudentID, Student.Name, Class.Name AS ClassName, Photo 
-					FROM Student INNER JOIN Class ON Student.ClassID = Class.ClassID", connection);
+				@"SELECT StudentID, Student.Name, Gender, Department.Name AS DepartmentName, Photo 
+					FROM Student INNER JOIN Department ON Student.DepartmentID = Department.DepartmentID", connection);
 
 		gridStudent.DataSource = dataSet;
 		Cache["DataSource"] = dataSet;

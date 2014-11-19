@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK05_LECTURE_DEMO\", "{C701F467-10EE-4A98-B61E-1C8D936B4388}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -286,27 +286,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK10_LAB", "http://localh
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LECTURE", "http://localhost:51628", "{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_51628"
-		Debug.AspNetCompiler.PhysicalPath = "..\WEEK11_LECTURE\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51628\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_51628"
-		Release.AspNetCompiler.PhysicalPath = "..\WEEK11_LECTURE\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51628\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\WEEK11_LECTURE\"
-	EndProjectSection
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LAB", "http://localhost:64316", "{2F4FD83E-A625-42B1-93FE-6D140F7DC809}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
@@ -326,6 +305,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LAB", "http://localh
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "WEEK11_LAB\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LECTURE", "http://localhost:4060", "{9416149C-EB94-497E-8135-FC5E2E7E5867}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4060"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK11_LECTURE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4060\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4060"
+		Release.AspNetCompiler.PhysicalPath = "WEEK11_LECTURE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4060\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WEEK11_LECTURE\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -401,16 +402,16 @@ Global
 		{15E5ABEE-18B5-493A-84B4-7680B20FBAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E5ABEE-18B5-493A-84B4-7680B20FBAA8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{15E5ABEE-18B5-493A-84B4-7680B20FBAA8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{6CABBD1B-5C15-4693-A55E-76BE031A0BFF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{2F4FD83E-A625-42B1-93FE-6D140F7DC809}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{2F4FD83E-A625-42B1-93FE-6D140F7DC809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F4FD83E-A625-42B1-93FE-6D140F7DC809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F4FD83E-A625-42B1-93FE-6D140F7DC809}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{2F4FD83E-A625-42B1-93FE-6D140F7DC809}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

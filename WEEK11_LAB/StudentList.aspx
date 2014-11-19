@@ -31,7 +31,6 @@
                                  <asp:BoundField DataField="DepartmentName" HeaderText="系"  />
                                  <asp:ImageField HeaderText="照片" DataImageUrlField="Photo" 
                                                  DataImageUrlFormatString="images/{0}">
-                                     <ControlStyle Height="50px" />
                                  </asp:ImageField>
                              </Columns>
                          </asp:GridView></div><div><a href="AddStudent.aspx">添加学生</a></div></div>

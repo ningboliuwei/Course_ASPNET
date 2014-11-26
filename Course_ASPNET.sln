@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK05_LECTURE_DEMO", "WEEK05_LECTURE_DEMO\", "{C701F467-10EE-4A98-B61E-1C8D936B4388}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -308,7 +308,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LAB", "http://localh
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LECTURE", "http://localhost:4060", "{9416149C-EB94-497E-8135-FC5E2E7E5867}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LECTURE(1)", "http://localhost:4060", "{9416149C-EB94-497E-8135-FC5E2E7E5867}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
@@ -327,6 +327,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK11_LECTURE", "http://lo
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "WEEK11_LECTURE\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK12_LECTURE", "http://localhost:61779", "{1DE00B59-8833-430E-A3BB-957CBD204FB8}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61779"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK12_LECTURE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61779\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61779"
+		Release.AspNetCompiler.PhysicalPath = "WEEK12_LECTURE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61779\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WEEK12_LECTURE\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -412,6 +434,11 @@ Global
 		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{9416149C-EB94-497E-8135-FC5E2E7E5867}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1DE00B59-8833-430E-A3BB-957CBD204FB8}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1DE00B59-8833-430E-A3BB-957CBD204FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE00B59-8833-430E-A3BB-957CBD204FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE00B59-8833-430E-A3BB-957CBD204FB8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1DE00B59-8833-430E-A3BB-957CBD204FB8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

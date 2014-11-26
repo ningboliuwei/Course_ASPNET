@@ -14,6 +14,7 @@ public partial class ListViewExample : System.Web.UI.Page
 
 	protected void Page_Load(object sender, EventArgs e)
 	{
+		//以下代码为什么不放到 if 语句块里面？
 		if (Session["cart"] == null)
 		{
 			cart = new List<CartItemInfo>();
@@ -22,7 +23,6 @@ public partial class ListViewExample : System.Web.UI.Page
 		{
 			cart = Session["cart"] as List<CartItemInfo>;
 		}
-
 
 		if (!Page.IsPostBack)
 		{
@@ -46,7 +46,7 @@ public partial class ListViewExample : System.Web.UI.Page
 
 			string itemId = e.CommandArgument.ToString();
 			string name = (e.Item.FindControl("lblTitle") as Label).Text;
-			string price = (e.Item.FindControl("lblPrice") as Label).Text;
+			float price = Convert.ToSingle((e.Item.FindControl("lblPrice") as Label).Text);
 			int quantity = Convert.ToInt32(txtCount.Text);
 			CartItemInfo itemInfo = new CartItemInfo(itemId, name, price, quantity);
 

@@ -34,7 +34,7 @@
                         <p>
                             <asp:Label ID="lblTitle" runat="server" Text='<%#Eval("Title")%>' /></p>
                         <p>
-                            <asp:Label  ID="lblPrice" CssClass="price" runat="server" Text='<%#"$" + Eval("Price")%>'/></p>
+                            <asp:Label  ID="lblPrice" CssClass="price" runat="server" Text='<%#Eval("Price")%>'/></p>
                         <p>
                             <asp:Button runat="server" ID="btnBuy" CommandName="AddToCart" CommandArgument='<%#Eval("ItemID")%>' Text="添加到购物车" />&nbsp;<asp:Button runat="server"
                                                                                                  ID="btnFollow" Text="关注" />&nbsp;<asp:Button runat="server" ID="btnCompare" Text="对比" /></p>
@@ -47,7 +47,7 @@
                 </GroupTemplate>
             </asp:ListView>
             <a href="ShowCart.aspx">显示购物车</a>
-            <asp:TextBox runat="server" ID="txtCount"></asp:TextBox>
+            购买数量：<asp:TextBox runat="server" ID="txtCount"></asp:TextBox>
             
         </form>
     </body>

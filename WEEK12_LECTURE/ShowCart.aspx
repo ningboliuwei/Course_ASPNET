@@ -10,9 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="Button1" runat="server" Text="显示购物车" OnClick="Button1_Click" />
+            <asp:GridView runat="server" ID="gdvCart" ShowFooter="True">
+            </asp:GridView>
         </div>
     </form>
 </body>
->
 </html>

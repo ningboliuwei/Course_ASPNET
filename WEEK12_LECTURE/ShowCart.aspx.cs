@@ -13,29 +13,38 @@ public partial class ShowCart : System.Web.UI.Page
 
 	protected void Page_Load(object sender, EventArgs e)
 	{
-
-		cart = Session["cart"] as List<CartItemInfo>;
-
-
+		if (!Page.IsPostBack)
+		{
+			cart = new List<CartItemInfo>();
+			this.DisplayCart();
+		}
 	}
 
 	private void DisplayCart()
 	{
-		string outputStr = "";
-
 		double totalPrice = 0;
+		cart = Session["cart"] as List<CartItemInfo>;
+		
+		gdvCart.DataSource = cart;
+		gdvCart.DataBind();
 
-		foreach (CartItemInfo s in cart)
-		{
-			outputStr += s.ItemId + "," + s.Name + "," + s.Price + "," + s.Quantity + "<br/>";
-			totalPrice += Convert.ToDouble(s.Price) * s.Quantity;
-		}
+		//传统循环方式实现总价计算
+		//foreach (CartItemInfo c in cart)
+		//{
+		//	totalPrice += Convert.ToDouble(c.Price) * c.Quantity;
+		//}
 
-		Response.Write(totalPrice);
+		//LINQ 实现表达式计算
+		//totalPrice = (from c in cart select c.Price * c.Quantity).Sum();
+		
+		//Lambda表达式实现总价计算
+		//totalPrice = cart.Sum(c => c.Price * c.Quantity);
+					 
+
+		//在网格的 footer 行显示总价
+		gdvCart.FooterRow.Cells[gdvCart.FooterRow.Cells.Count - 2].Text = "总价："; 
+		gdvCart.FooterRow.Cells[gdvCart.FooterRow.Cells.Count-1].Text = totalPrice.ToString();
 	}
 
-	protected void Button1_Click(object sender, EventArgs e)
-	{
-		this.DisplayCart();
-	}
+
 }

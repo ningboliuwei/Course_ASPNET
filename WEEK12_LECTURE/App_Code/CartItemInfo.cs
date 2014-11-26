@@ -11,11 +11,11 @@ namespace ListView的使用
 
 		public string Name { get; set; }
 
-		public string Price { get; set; }
+		public float Price { get; set; }
 
 		public int Quantity { get; set; }
 
-		public CartItemInfo(string itemId, string name, string price, int quantity)
+		public CartItemInfo(string itemId, string name, float price, int quantity)
 		{
 			ItemId = itemId;
 			Name = name;

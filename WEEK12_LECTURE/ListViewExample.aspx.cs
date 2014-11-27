@@ -10,6 +10,7 @@ using ListView的使用;
 
 public partial class ListViewExample : System.Web.UI.Page
 {
+	//用一个元素类型为 CartItemInfo 类型的 List<T> 对象保存购物车中的所有项目
 	private List<CartItemInfo> cart;
 
 	protected void Page_Load(object sender, EventArgs e)
@@ -21,7 +22,7 @@ public partial class ListViewExample : System.Web.UI.Page
 			//那么将 Session 中的购物车数据取出并转换为 List<CartItemInfo> 类型
 			cart = Session["cart"] as List<CartItemInfo>;
 		}
-		else
+		else//否则将在 Session 中保存的数据取出来，并转换为 List<CartItemInfo> 类型的对象
 		{
 			//否则创建一个新的实例
 			cart = new List<CartItemInfo>();

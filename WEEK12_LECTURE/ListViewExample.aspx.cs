@@ -14,14 +14,17 @@ public partial class ListViewExample : System.Web.UI.Page
 
 	protected void Page_Load(object sender, EventArgs e)
 	{
-		//以下代码为什么不放到 if 语句块里面？
-		if (Session["cart"] == null)
+		//以下代码为什么不放到 if (!Page.IsPostBack) 语句块里面？
+		//若 Session 中已经保存了购物车数据
+		if (Session["cart"] != null)
 		{
-			cart = new List<CartItemInfo>();
+			//那么将 Session 中的购物车数据取出并转换为 List<CartItemInfo> 类型
+			cart = Session["cart"] as List<CartItemInfo>;
 		}
 		else
 		{
-			cart = Session["cart"] as List<CartItemInfo>;
+			//否则创建一个新的实例
+			cart = new List<CartItemInfo>();
 		}
 
 		if (!Page.IsPostBack)
@@ -41,21 +44,23 @@ public partial class ListViewExample : System.Web.UI.Page
 
 	protected void lvwItems_ItemCommand(object sender, System.Web.UI.WebControls.ListViewCommandEventArgs e)
 	{
+		//通过 CommandName 判断用户在 DataList 中点击的是否是“添加到购物车”按钮，若是
 		if (e.CommandName == "AddToCart")
 		{
-
+			//获取用户点击的那一项的 ItemID（通过事先通过数据绑定实现的 CommandArgument 属性）
 			string itemId = e.CommandArgument.ToString();
+			//通过 e.Item.FindControl() 方法，获取用户点击的那一项中的指定名称的控件，并得到控件中的属性值
 			string name = (e.Item.FindControl("lblTitle") as Label).Text;
 			float price = Convert.ToSingle((e.Item.FindControl("lblPrice") as Label).Text);
+			//获取用户在“购买数量”文本框中输入的值
 			int quantity = Convert.ToInt32(txtCount.Text);
+			//通过调用构造函数，创建一个 CartItemInfo 类型的对象，用于保存购物车中的一条记录
 			CartItemInfo itemInfo = new CartItemInfo(itemId, name, price, quantity);
-
-
+			//将 CartItemInfo 类型的对象作为一个元素，添加到 List<CartItemInfo> 类型的对象中去
 			cart.Add(itemInfo);
+			//将 List<CartItemInfo> 类型的对象放入 Session 中（以便在另外一个页面得到购物车中的数据）
+			Session["cart"] = cart;
 		}
-
-		//能用 static 吗？
-		Session["cart"] = cart;
 	}
 
 }

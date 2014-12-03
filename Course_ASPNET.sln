@@ -374,6 +374,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LECTURE_12_DEMO", "http://l
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WEEK13_LECTURE", "http://localhost:24975", "{6A17D541-3EC6-4993-998D-184632B458A0}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_24975"
+		Debug.AspNetCompiler.PhysicalPath = "WEEK13_LECTURE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_24975\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_24975"
+		Release.AspNetCompiler.PhysicalPath = "WEEK13_LECTURE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_24975\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WEEK13_LECTURE\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -466,6 +488,11 @@ Global
 		{20745F9C-A48A-4C2D-B455-938E2A4EC6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20745F9C-A48A-4C2D-B455-938E2A4EC6E3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{20745F9C-A48A-4C2D-B455-938E2A4EC6E3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6A17D541-3EC6-4993-998D-184632B458A0}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6A17D541-3EC6-4993-998D-184632B458A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A17D541-3EC6-4993-998D-184632B458A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A17D541-3EC6-4993-998D-184632B458A0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6A17D541-3EC6-4993-998D-184632B458A0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

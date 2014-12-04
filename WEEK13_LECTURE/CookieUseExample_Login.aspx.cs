@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -82,8 +83,8 @@ public partial class CookieUseExample_Login : System.Web.UI.Page
 		{
 			HttpCookie cookie = new HttpCookie(cookieName);
 			cookie["username"] = txtUserName.Text;
-			cookie["password"] = txtPassword.Text;
-			//cookie["password"] = FormsAuthentication.HashPasswordForStoringInConfigFile(txtPassword.Text, "MD5");
+			//cookie["password"] = txtPassword.Text;
+			cookie["password"] = FormsAuthentication.HashPasswordForStoringInConfigFile(txtPassword.Text, "MD5");
 			//如果要对保存的密码加密，使用注释的语句
 
 

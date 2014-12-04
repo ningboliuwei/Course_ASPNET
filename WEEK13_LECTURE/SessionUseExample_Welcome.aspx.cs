@@ -19,20 +19,26 @@ public partial class SessionUseExample_Welcome : System.Web.UI.Page
 		//第二步
 		//string userName = Session["username"].ToString();
 		//int id = Convert.ToInt32(Session["id"]);
-		//lblInfo.Text = "你好，" + userName + "，你的 GUID 为 " + guid;
+		//lblInfo.Text = "你好，" + userName + "，你的 ID 为 " + id;
 		//第二步
 
 		//第三步
-		//if (Session["username"] == null)
-		//{
-		//	lblInfo.Text = "你还未登录，<a href='SessionUseExample_Login.aspx'>点此返回登录页面</a>";
-		//}
-		//else
-		//{
-		//	string userName = Session["username"].ToString();
-		//	int id = Convert.ToInt32(Session["id"]);
-		//	lblInfo.Text = "你好，" + userName + "，你的 GUID 为 " + id;
-		//}
+		if (Session["username"] == null)
+		{
+			lblInfo.Text = "你还未登录，<a href='SessionUseExample_Login.aspx'>点此返回登录页面</a>";
+		}
+		else
+		{
+			string userName = Session["username"].ToString();
+			int id = Convert.ToInt32(Session["id"]);
+			lblInfo.Text = "你好，" + userName + "，你的 GUID 为 " + id;
+		}
 		//第三步
+	}
+	protected void btnLogout_Click(object sender, EventArgs e)
+	{
+		Session["username"] = null;
+		Session["id"] = null;
+		Response.Redirect("SessionUseExample_Login.aspx");
 	}
 }

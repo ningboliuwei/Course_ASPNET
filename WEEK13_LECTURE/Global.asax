@@ -1,13 +1,13 @@
 ﻿<%@ Application Language="C#" %>
 <%@ Import Namespace="System.IO" %>
 
-<script RunAt="server">
-	//当本 Web 应用程序启动时
+<script runat="server">
+
 	protected void Application_Start(object sender, EventArgs e)
 	{
 		//在线人数设为0
 		Application["online"] = 0;
-		
+
 		//第二步
 		Application["total"] = LoadTotalFromFile("r:\\total.txt");
 		//第二步
@@ -43,7 +43,7 @@
 
 	protected void Application_End(object sender, EventArgs e)
 	{
-		SaveTotalToFile("c:\\total.txt", Convert.ToInt32(Application["total"]));
+		SaveTotalToFile("r:\\total.txt", Convert.ToInt32(Application["total"]));
 	}
 
 	private void SaveTotalToFile(string filePath, int total)
@@ -61,5 +61,5 @@
 
 		return total;
 	}
-
+       
 </script>

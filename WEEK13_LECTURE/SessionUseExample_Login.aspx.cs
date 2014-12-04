@@ -20,10 +20,10 @@ public partial class SessionUseExample_Login : System.Web.UI.Page
 
 		//第二步
 		//Session 中可以存放不止一个数据
-		//Session["username"] = txtUserName.Text;
-		////生成一个随机整数作为 id
-		//Session["id"] = new Random().Next(1, 1000);
-		//Response.Redirect("SessionUseExample_Welcome.aspx");
+		Session["username"] = txtUserName.Text;
+		//生成一个随机整数作为 id
+		Session["id"] = new Random().Next(1, 1000);
+		Response.Redirect("SessionUseExample_Welcome.aspx");
 		//第二步
 		
 	}

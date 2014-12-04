@@ -19,26 +19,27 @@ public partial class SendEmailUseExample : System.Web.UI.Page
 	{
 		try
 		{
+			
+			//第三步时注释掉
+			//设置 SMTP 服务器地址
+			//SmtpClient client = new SmtpClient("smtp.qq.com");
+			//client.Credentials = new NetworkCredential("11234387@qq.com", "ningboliuwei"); //邮箱身份验证
+			//第三步时注释掉
+
+
 			MailMessage mail = new MailMessage(txtFrom.Text, txtTo.Text);
 			//主题
 			mail.Subject = txtSubject.Text;
 			//正文
 			mail.Body = txtBody.Text;
-			
-			//第三步时注释掉
-			//设置 SMTP 服务器地址
-			SmtpClient client = new SmtpClient("smtp.qq.com");
-			client.Credentials = new NetworkCredential("11234387@qq.com", "bmjw486319"); //邮箱身份验证
-			//第三步时注释掉
-
 			//第二步
 			//附件
-			//mail.Attachments.Add(new Attachment(txtAttachment.Text));
+			mail.Attachments.Add(new Attachment(txtAttachment.Text));
 			//第二步
 
 			//第三步
-			//SmtpClient client = new SmtpClient(txtSMTP.Text);
-			//client.Credentials = new NetworkCredential(txtFrom.Text, txtPassword.Text); //邮箱身份验证
+			SmtpClient client = new SmtpClient(txtSMTP.Text);
+			client.Credentials = new NetworkCredential(txtFrom.Text, txtPassword.Text); //邮箱身份验证
 
 			client.Send(mail);
 			Response.Write("邮件发送成功。");

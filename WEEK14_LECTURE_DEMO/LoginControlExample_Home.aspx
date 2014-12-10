@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AuthenticationExample_Home.aspx.cs" Inherits="AuthenticationExample_Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginControlExample_Home.aspx.cs" Inherits="LoginControlExample_Home" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,10 @@
 <body>
     <form id="form1" runat="server">
     <div>
-		<asp:Button runat="server"  ID="btnLogout" Text="注销" OnClick="btnLogout_Click"/>
+    
+    	<asp:LoginName ID="LoginName1" runat="server" />
+		<asp:LoginStatus ID="LoginStatus1" runat="server" />
+    
     </div>
     </form>
 </body>

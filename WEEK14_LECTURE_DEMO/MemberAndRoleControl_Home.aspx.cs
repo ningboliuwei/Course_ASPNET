@@ -12,7 +12,7 @@ public partial class MemberAndRoleControl_Home : System.Web.UI.Page
     {
 		Response.Write("<p>你好，" + Context.User.Identity.Name + "</p>");
 		Response.Write("<p>你是否已通过验证：" + Context.User.Identity.IsAuthenticated + "</p>");
-		Response.Write("<p>你是否是 PowerUser 角色：" + Context.User.IsInRole("PowerUser") + "</p>");
+		Response.Write("<p>你是否是 PowerUser 角色：" + Context.User.IsInRole("PowerUsers") + "</p>");
 		MembershipUser user = Membership.GetUser(Context.User.Identity.Name);
 
 	    if (user != null)
